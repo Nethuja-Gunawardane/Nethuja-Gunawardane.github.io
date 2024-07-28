@@ -1,40 +1,70 @@
 body {
-  background-color: powderblue;
-  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
-header h1 {
-  font-size: 2em;
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
   text-align: center;
 }
 
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
 main {
-  margin: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+section {
+  margin-bottom: 30px;
 }
 
 h2 {
-  color: #333;
+  color: #004080;
+  font-size: 1.8em;
+  margin-bottom: 15px;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 ul li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 a {
   font-weight: bold;
-  color: #0066cc;
+  color: #004080;
   text-decoration: none;
+  font-size: 1.2em;
 }
 
 a:hover {
+  color: #0066cc;
   text-decoration: underline;
 }
 
 p {
-  font-family: 'Courier New', Courier, monospace;
   margin: 5px 0 15px;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  color: #666;
+}
+
+.github-card {
+  margin-top: 20px;
 }
