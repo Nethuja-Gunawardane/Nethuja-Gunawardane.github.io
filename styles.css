@@ -39,6 +39,7 @@ h2 {
 }
 
 ul {
+  font-family: 'Cascadia Code', sans-serif;
   list-style-type: none;
   padding: 0;
 }
