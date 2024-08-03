@@ -65,6 +65,10 @@ p {
   color: #666;
 }
 
+footer {
+  font-style: italic;
+}
+
 .github-card {
   margin-top: 20px;
 }
