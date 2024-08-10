@@ -39,7 +39,7 @@ h2 {
 }
 
 ul {
-  font-family: 'Titillium Web', 'Cascadia Code', sans-serif;
+  font-family: 'Cascadia Code', sans-serif;
   list-style-type: none;
   padding: 0;
 }
@@ -63,7 +63,7 @@ a:hover {
 p {
   margin: 5px 0 15px;
   font-size: 1em;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Titillium Web', Courier New', Courier, monospace;
   color: #666;
 }
 
